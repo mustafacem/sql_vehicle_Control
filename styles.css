@@ -1,0 +1,25 @@
+body {background-color: rgb(102, 57, 236);}
+h1   {color: rgb(241, 139, 29);}
+p    {color: red;font-size: 30px;}
+.button {
+  border: none;
+  color: rgb(195, 195, 195);
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.mybutton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+}
+
+.mybutton:hover {
+  background-color: #959595;
+  color: white;
+}
